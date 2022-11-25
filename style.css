@@ -1,0 +1,301 @@
+body{
+    background-color:#1D232A;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.imglogo{
+    width: 10%;
+    
+}
+.cabecalho{
+    background-color: black;
+    padding: 20px;
+}
+.menu{
+    box-sizing: border-box;
+    border: 5PX solid   white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.menu:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+/*------------------------------------------------------*/
+h1{
+    font-size: 35px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+
+nav{
+display: flex;
+justify-content: space-evenly;
+-webkit-box-flex-group: unset;
+}
+.not-inicial{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    align-self: center;
+    align-items: center;
+    margin-left: 100px;
+}
+nav .imagem1{
+    width: 35%;
+    float: left;
+    box-sizing: border-box;
+    border: 5px solid  white;
+    border-radius: 5px;
+    filter: brightness(50%);
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+
+nav .imagem1:hover{
+    cursor: pointer;
+    filter: brightness(100%);
+    border-color: goldenrod;   
+    transition: 0.5s;
+}
+nav .imagem2:hover{
+    cursor: pointer;
+    filter: brightness(100%);   
+    transition: 0.5s;
+    border-color: goldenrod;
+    
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+main{
+    margin-bottom: 50px;
+}
+
+
+
+/*Rodapé_______________________________________________________________________________________*/
+footer{
+    
+    text-align: center;
+	background-color: black;
+ 
+    
+}
+.imgRodape{
+    display:block;
+    width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.copyrighty{
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+
+/*telas até 1040px*/
+@media screen and (max-width: 1040px){
+    body{
+        background-color: #1D232A;
+        font-size:12px;
+        font-family: fantasy;
+    }
+    .imglogo{
+        width: 10%;
+        
+    }
+    .cabecalho{
+        background-color: black;
+        padding: 10px;
+    }
+    
+
+    .menu{
+        align-items: flex-start;
+        box-sizing: border-box;
+        border: 2.5PX solid   white;
+        border-radius: 7.5px;
+        cursor: pointer;
+        padding: 2.5px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
+    .menu:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    }
+
+
+
+
+    h1{
+        font-size: 12px;
+        color: white;
+        margin-top: 50px;
+    }
+    .not-inicial{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        align-self: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    nav .imagem1{
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid  white;
+        border-radius: 5px;
+        filter: brightness(50%);
+        margin-bottom: 20px;
+        margin-right: 10px;
+    
+    }
+    
+    nav .imagem1:hover{
+        cursor: pointer;
+        filter: brightness(100%);    
+        border-color: goldenrod; 
+        transition: 0.5s;
+    }
+  
+    .noticias1 {
+        margin-bottom: 15px;           
+        
+    }
+
+    
+
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:hover {        
+        text-decoration: underline;
+        
+    }
+    main{
+        margin: 0 0 380px 0;
+    }
+    
+
+}
+    
+@media screen and (max-width: 560px){
+    
+    body{
+        background-color: #1D232A;
+        font-size: 7.5px;
+        font-family: fantasy;
+    }
+    .imglogo{
+        width: 10%;
+        
+    }
+    .cabecalho{
+        background-color: black;
+        padding: 10px;
+    }
+    
+
+    .menu{
+        font-size: 8px;
+        box-sizing: border-box;
+        border: 0.5PX solid   white;
+        border-radius: 3.5px;
+        cursor: pointer;
+        padding: 1.5px;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
+    .menu:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    }
+
+    
+
+
+    h1{
+        font-size: 10px;
+        color: white;
+        margin-top: 20px;
+    }
+    .not-inicial{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        align-self: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    nav .imagem1{
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid  white;
+        border-radius: 5px;
+        filter: brightness(50%);
+        margin-bottom: 20px;
+        margin-right: 10px;
+    
+    }
+    
+    nav .imagem1:hover{
+        cursor: pointer;
+        filter: brightness(100%);    
+        border-color: goldenrod; 
+        transition: 0.5s;
+    }  
+ 
+
+    
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    nav a:hover {        
+        text-decoration: underline;
+        
+    }
+    main{
+        margin: 0 0 500px 0;
+    }
+    
+
+}
+

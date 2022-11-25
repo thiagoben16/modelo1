@@ -1,0 +1,49 @@
+.cabecalhoMenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin-left: 300px;
+    font-size: 30px;
+    
+}
+.noticiasinicias{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 250px;
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+
+/*telas 760*/
+@media screen and (max-width: 1040px){
+    
+    .cabecalhoMenu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;    
+        margin-left: 150px;
+        font-size: 15px;
+        
+    }
+
+    .noticiasinicias{
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 125px;
+        font-size: 10px;
+        color: white;
+        
+    
+    }
+
+}
+    
